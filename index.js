@@ -13,6 +13,10 @@ stdin.addListener("data", function(d) {
     d.toString().trim());
     idioma.push("Ciao " + 
     d.toString().trim());
+    idioma.push("ola " + 
+    d.toString().trim());
+    idioma.push("Salut " + 
+    d.toString().trim());
 
 var contenido = "";
 
