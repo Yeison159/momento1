@@ -18,6 +18,8 @@ for (let index = 0; index < idioma.length; index++) {
     contenido += `${idioma[index]}`+ "\n";
 }
 
+console.log(contenido);
+
  let nombre = d.toString().trim();
  fs.writeFile(
     `Saludo ${ nombre }.txt` , 
